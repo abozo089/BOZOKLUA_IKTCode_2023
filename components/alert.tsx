@@ -1,6 +1,5 @@
 import Container from './container'
 import cn from 'classnames'
-import { EXAMPLE_PATH } from '../lib/constants'
 
 type Props = {
   preview?: boolean
@@ -15,7 +14,7 @@ const Alert = ({ preview }: Props) => {
       })}
     >
       <Container>
-        <div className="py-2 text-center text-sm">
+        {/* <div className="py-2 text-center text-sm">
           {preview ? (
             <>
               This page is a preview.{' '}
@@ -39,7 +38,7 @@ const Alert = ({ preview }: Props) => {
               .
             </>
           )}
-        </div>
+        </div> */}
       </Container>
     </div>
   )

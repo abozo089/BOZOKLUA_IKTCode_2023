@@ -1,0 +1,41 @@
+# Query: assets
+# ContextLines: 1
+
+11 results - 4 files
+
+_posts/dynamic-routing.md:
+   3  excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+   4: coverImage: '/assets/blog/dynamic-routing/cover.png' 
+   5  date: '2020-03-16T05:35:07.322Z'
+
+   7    name: Ayse Isil Bozoklu
+   8:   picture: '/assets/blog/authors/ii.png'
+   9  ogImage:
+  10:   url: '/assets/blog/dynamic-routing/cover2.png'
+  11  ---
+
+_posts/hello-world.md:
+   3  excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+   4: coverImage: '/assets/blog/hello-world/cover3.png'
+   5  date: '2020-03-16T05:35:07.322Z'
+
+   7    name: Tim Neutkens
+   8:   picture: '/assets/blog/authors/tim.jpeg'
+   9  ogImage:
+  10:   url: '/assets/blog/hello-world/cover.jpg'
+  11  ---
+
+_posts/preview.md:
+   3  excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+   4: coverImage: '/assets/blog/preview/cover3.png'
+   5  date: '2020-03-16T05:35:07.322Z'
+
+   7    name: Joe Haddad
+   8:   picture: '/assets/blog/authors/joe.jpeg'
+   9  ogImage:
+  10:   url: '/assets/blog/preview/cover3.png'
+  11  ---
+
+lib/constants.ts:
+  3  export const HOME_OG_IMAGE_URL =
+  4:   'https://og-image.vercel.app/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg'
